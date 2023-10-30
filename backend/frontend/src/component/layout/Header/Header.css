@@ -1,0 +1,54 @@
+/* header.css (or any preferred CSS file name) */
+
+/* Style for the entire navigation bar */
+.react-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Background color for the navigation bar */
+    padding: 10px 20px; /* Adjust padding as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional box-shadow */
+  }
+  
+  /* Style for the logo */
+  .react-navbar-logo {
+    width: 10vmax; /* Adjust the logo width */
+    height: 5vmax; /* Adjust the logo height */
+  }
+  
+  /* Style for the burger menu icon */
+  .react-navbar-burger {
+    cursor: pointer;
+  }
+  
+  /* Style for navigation links */
+  .react-navbar-link {
+    text-decoration: none;
+    color: rgba(35, 35, 35, 0.8); /* Default link color */
+    font-size: 1.3vmax; /* Adjust link font size */
+    margin: 0 10px; /* Adjust link margin as needed */
+    transition: color 0.3s; /* Add a smooth color transition effect */
+  }
+  
+  /* Hover effect for navigation links */
+  .react-navbar-link:hover {
+    color: #eb4034; /* Link color on hover */
+  }
+  
+  /* Style for profile, search, and cart icons */
+  .react-navbar-icon {
+    color: rgba(35, 35, 35, 0.8); /* Default icon color */
+    margin: 0 10px; /* Adjust icon margin as needed */
+    cursor: pointer;
+  }
+  
+  /* Hover effect for icons */
+  .react-navbar-icon:hover {
+    color: #eb4034; /* Icon color on hover */
+  }
+  
+  /* Media query for responsive design (adjust breakpoints as needed) */
+  @media (max-width: 768px) {
+    /* Add responsive styles here, e.g., for mobile devices */
+  }
+  
